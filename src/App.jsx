@@ -16,7 +16,7 @@ import Programs from "./pages/Programs";
 import Education from "./pages/programs/Education";
 import Healthcare from "./pages/programs/Healthcare";
 import WomenEmpowerment from "./pages/programs/WomenEmpowerment";
-import SocialWelfare from "./pages/programs/SocialWelfare";
+import SocialWelfare from "./pages/Programs/SocialWelfare";
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
         />
         <Route
           path="/programs/social-welfare"
-          element={<SocialWelfare />}
+          element={<SocialWelfare/>}
         />
       </Routes>
 
