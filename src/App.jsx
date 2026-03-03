@@ -13,10 +13,11 @@ import Trustee from "./pages/Trustee"; // ✅ ADDED
 import Programs from "./pages/Programs";
 
 // ✅ Programs Detail Pages
-import Education from "./pages/programs/Education";
-import Healthcare from "./pages/programs/Healthcare";
-import WomenEmpowerment from "./pages/programs/WomenEmpowerment";
+
 import SocialWelfare from "./pages/Programs/SocialWelfare";
+import Education from "./pages/Programs/Education";
+import Healthcare from "./pages/Programs/Healthcare";
+import WomenEmpowerment from "./pages/Programs/WomenEmpowerment";
 
 function App() {
   return (
@@ -36,8 +37,8 @@ function App() {
         <Route path="/programs" element={<Programs />} />
 
         {/* ✅ PROGRAMS DETAIL PAGES */}
-        <Route path="/programs/education" element={<Education />} />
-        <Route path="/programs/healthcare" element={<Healthcare />} />
+        <Route path="/programs/education" element={<Education/>} />
+        <Route path="/programs/healthcare" element={<Healthcare/>} />
         <Route
           path="/programs/women-empowerment"
           element={<WomenEmpowerment />}
